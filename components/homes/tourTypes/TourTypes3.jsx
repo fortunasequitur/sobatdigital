@@ -58,13 +58,15 @@ export default function TourTypes3() {
               </ul>
             </div>
             <br />
-            <h3 className="text-5xl font-bold">Rp. 349.000</h3>
-            <p className="text-2xl" style={{ color: "red" }}>Harga Normal <span className="line-through">Rp.849.000</span></p>
+            <h4 style={{ color: "red" }}>BENEFIT SEBANYAK ITU</h4>
+            <h4 style={{ color: "red" }}>GIMANA? WORTH IT KAN?</h4>
+            <h3 className="text-5xl font-bold">Rp. 299.000</h3>
+            <p className="text-2xl" style={{ color: "red" }}>Harga Normal <span className="line-through">Rp.899.000</span></p>
             <div className="text-center text-sm text-muted-foreground">
               Untuk Selamanya
             </div>
             <div className="flex justify-center mt-4">
-              <Link href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+              <Link href="https://lynk.id/canvatron/JbyzBYr" target="_blank" rel="noopener noreferrer">
                 <button
                   className="cta-button animate-shake"
                   style={{
@@ -83,6 +85,9 @@ export default function TourTypes3() {
             <div id="countdown" className="text-center mt-2 text-red-500 font-bold">
               Hanya Beli 1x Tidak Ada Biaya Lainya
             </div>
+            <h4 style={{ color: "red" }}>GARANSI UANG KEMBALI 100%</h4>
+            <h4 style={{ color: "red" }}>JIKA</h4>
+            <h4 style={{ color: "red" }}>SUDAH PRAKTEK TIDAK PROFIT</h4>
             <div className="flex justify-center">
               <img src="/img/blogCards/1/qris.png" alt="QRIS" className="max-w-full h-auto" />
             </div>

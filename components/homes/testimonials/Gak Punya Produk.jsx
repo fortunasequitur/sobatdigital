@@ -19,7 +19,7 @@ export default function GakPunyaProduk() {
               TAPI SAYA GAK PUNYA PRODUK KAK ☹️
               <br className="d-none md:d-block" />
             </h2>
-            <Link href={`/blog-single/${blog.id}`} className="blogCard -type-1 mt-20">
+            <div className="blogCard -type-1 mt-20">
               <div className="blogCard__image ratio ratio-41:30">
                 <Image
                   width={616}
@@ -34,7 +34,7 @@ export default function GakPunyaProduk() {
                 <div className="blogCard__info text-14">
                 </div>
               </div>
-            </Link>
+            </div> {/* Menambahkan tag penutup div yang hilang */}
             <h2 data-aos="fade-up" data-aos-delay="" className="text-30">
               TENANG! KAMI KASIH PRODUK,
               <br className="d-none md:d-block" />
@@ -53,7 +53,7 @@ export default function GakPunyaProduk() {
                 className="swiper-wrapper"
               >
                 <div className="testimonials -type-2 text-center">
-                  <Link href={`/blog-single/${blogs[1].id}`} className="blogCard -type-1">
+                  <div className="blogCard -type-1">
                     <div className="blogCard__image ratio ratio-41:30">
                       <Image
                         width={616}
@@ -68,7 +68,7 @@ export default function GakPunyaProduk() {
                       <div className="blogCard__info text-14">
                       </div>
                     </div>
-                  </Link>
+                  </div>
 
                   <div className="text-20 lh-18 md:text-18 fw-500 mt-60 md:mt-30">
                     <h2 style={{ color: "#eb662b" }}>Template Canva Exclusive</h2>
